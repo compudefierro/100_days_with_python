@@ -27,7 +27,7 @@ print(' '.join('  hola   todos  ,  yo  soy   '.strip().split()).replace(' ,', ',
 # Variables
 nombre = 'pan jamon queso lechuga tomate'
 lista = nombre.split()
-print(f'Ingredientes de un sanguche: {lista})
+print(f'Ingredientes de un sanguche: {lista}')
 
 # Debugging
 # Debugging: proceso de encontrar y corregir errores en el código.
