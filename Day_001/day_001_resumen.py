@@ -34,3 +34,8 @@ print(f'Ingredientes de un sanguche: {lista}')
 # Debug: mostramos el valor de la variable para verificar que sea el esperado.
 nombre = 'John Connor'
 print(nombre)
+
+# input y variables
+nombre = input('Ingrese su nombre: ')
+print(f'Hola {nombre}, ¿cómo estás?')
+print(f'Hola {nombre}, tu nombre tiene {len(nombre.replace(" ",""))} letras.')
